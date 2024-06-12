@@ -9,7 +9,7 @@ export default () => (
         <p className="lead">My own private video store.</p>
         <hr className="my-4" />
         <Link
-          to="/movies"
+          to="/lists"
           className="btn btn-lg custom-button"
           role="button"
         >
