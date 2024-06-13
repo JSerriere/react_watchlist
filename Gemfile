@@ -64,4 +64,8 @@ group :development do
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
+# Bootstrap:
+gem 'bootstrap', '~> 5.3.3'
 
+gem 'sass-rails', '~> 6.0'
+gem 'esbuild-rails', '~> 0.1.4'

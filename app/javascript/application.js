@@ -2,4 +2,6 @@
 import "@hotwired/turbo-rails";
 import "./controllers";
 import * as bootstrap from "bootstrap";
-import "./components";
+import "./components/App.jsx"
+import "./components/HOME.jsx"
+import "./components/Index.jsx"
