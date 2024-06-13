@@ -3,7 +3,7 @@ class CreateMovies < ActiveRecord::Migration[7.1]
     create_table :movies do |t|
       t.string :title
       t.string :original_title
-      t.string :world-wide_title
+      t.string :worldwide_title
       t.string :alternative_title
       t.string :poster_url
       t.string :spoken_languages
