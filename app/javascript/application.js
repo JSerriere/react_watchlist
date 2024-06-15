@@ -5,3 +5,4 @@ import * as bootstrap from "bootstrap";
 import "./components/App.jsx"
 import "./components/HOME.jsx"
 import "./components/Index.jsx"
+import "./components/Lists.jsx"
