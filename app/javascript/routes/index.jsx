@@ -4,9 +4,11 @@ import Home from "../components/HOME";
 import Lists from "../components/Lists";
 import List from "../components/List";
 import NewList from "../components/NewList";
+import Navbar from "../components/Navbar";
 
 export default (
   <Router>
+    <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/lists" element={<Lists />} />
